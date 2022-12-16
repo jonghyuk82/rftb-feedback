@@ -1,4 +1,4 @@
-import FeedbackItem from "../components/FeedbackItem";
+// import FeedbackItem from "../components/FeedbackItem";
 
 const FeedbackData = [
   {
