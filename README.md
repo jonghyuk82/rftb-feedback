@@ -77,3 +77,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - npm i react-icons --save
 - npm i -g serve
   - serve -s build
+- npm i json-server --watch db.json --port 5000 (This is for backend)
+- npm i concurrently (This is for running both front and back at one script)
