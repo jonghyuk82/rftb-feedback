@@ -33,7 +33,7 @@ function App() {
 
             <Route path="/about" element={<AboutPage />} />
           </Routes>
-          <AboutIconLink />
+          {/* <AboutIconLink /> */}
         </div>
       </Router>
     </FeedbackProvider>
