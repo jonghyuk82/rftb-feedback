@@ -7,7 +7,7 @@ import FeedbackForm from "./components/FeedbackForm";
 
 import AboutPage from "./pages/AboutPage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import AboutIconLink from "./components/AboutIconLink";
+// import AboutIconLink from "./components/AboutIconLink";
 import { FeedbackProvider } from "./context/FeedbackContext"; // reason to use {} is because the export is not default export
 
 function App() {

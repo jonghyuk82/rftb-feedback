@@ -25,7 +25,7 @@ export const FeedbackProvider = ({ children }) => {
   useEffect(() => {
     setIsLoading(false);
     return feedback;
-  }, []);
+  }, [feedback]);
 
   // Fetch feedback
   // const fetchFeedback = async () => {
