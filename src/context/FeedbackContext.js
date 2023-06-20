@@ -24,7 +24,7 @@ export const FeedbackProvider = ({ children }) => {
 
   useEffect(() => {
     setIsLoading(false);
-    return feedback;
+    // return feedback;
   }, [feedback]);
 
   // Fetch feedback
@@ -37,6 +37,7 @@ export const FeedbackProvider = ({ children }) => {
 
   // Add feedback locally
   const addFeedback = (newFeedback) => {
+    console.log(newFeedback);
     newFeedback.id = uuidv4(); // this return uuid as a string
     setFeedback([newFeedback, ...feedback]);
     setIsLoading(false);
